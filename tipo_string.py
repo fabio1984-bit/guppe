@@ -45,7 +45,20 @@ print(d[::-1])
 # EStiver entre àspas duplas triplas -> """uma string""", """234""","""a""","""True""","""42.3"""
 
 
+nome = "Fabio magalhães"
+d = "dracula"
+print(nome[0:4])
 
+print(nome[5:15])
+
+#[0,    1]
+#['Fabio','Magalhaes']
+print(nome.split()[0])
+
+print(nome.split()[1])
+
+print(nome[::])
+print(nome[::-1])
 
 
 
